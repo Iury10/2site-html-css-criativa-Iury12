@@ -1,27 +1,28 @@
-body {
-    background-color: #5040F5;
-    color: white;
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
+
 }
 
-header {
-    background-color: #476FF5;
-    padding: 20px;
-    text-align: center;
+
+.cabecalho {
+    background-color: #28a2ff
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
 
-h1 {
-    margin: 0;
+
+
+.cabelho-imagem{
+    width: 20%;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
 
-li {
-    display: inline;
-    margin: 0 10px;
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
